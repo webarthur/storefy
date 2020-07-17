@@ -1,6 +1,6 @@
 {
   "name": "storefy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tiny event-based Redux-like state manager for JavaScript.",
   "main": "dist/storefy.js",
   "scripts": {
