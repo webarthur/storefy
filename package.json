@@ -1,0 +1,34 @@
+{
+  "name": "storefy",
+  "version": "1.0.1",
+  "description": "A tiny event-based Redux-like state manager for JavaScript.",
+  "main": "dist/storefy.js",
+  "scripts": {
+    "test": "jest",
+    "build": "terser dist/storefy.js -o dist/storefy.min.js  --compress --mangle --source-map \"root='./',url='storefy.js.map'\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webarthur/storefy.git"
+  },
+  "keywords": [
+    "state",
+    "store",
+    "immutable",
+    "react",
+    "vue",
+    "vanilla"
+  ],
+  "author": "Arthur Araújo <webarthur@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webarthur/storefy/issues"
+  },
+  "homepage": "https://github.com/webarthur/storefy#readme",
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "terser": "^4.8.0"
+  }
+}
